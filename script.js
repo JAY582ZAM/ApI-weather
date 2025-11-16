@@ -7,7 +7,7 @@ const weatherDisplay = document.getElementById('weather-display');
 // Function to fetch weather data
 async function getWeather(city) {
 const apiUrl =
-`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${fe0ecdf3d587c00f6b95f15a6d2ae4c9}&units=metric`;
+`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 // Show loading, hide other elements
 loading.classList.remove('hidden');
 error.classList.add('hidden');
